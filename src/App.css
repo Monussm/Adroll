@@ -1,38 +1,207 @@
-.App {
-  text-align: center;
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-machine
+{
+    height: 280px;
+
+}
+.rank{
+    height: 160px;
+}
+.Logo1
+{
+    width: 125px;
+}
+.Logo1:hover{
+transform: scale(1.03);
+}
+.Log-in
+{
+    text-decoration: none;
+}
+.Log-in:hover{
+
+color: rgb(93, 187, 245);
+text-decoration: underline;
+
+}
+.login{
+
+ width: 150px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.login-page{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    width: 450px;
 }
+.Forget{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+text-decoration: none;
+color: rgb(19, 137, 205);
+
 }
+.Forget:hover{
 
-.App-link {
-  color: #61dafb;
+    text-decoration: underline;
+    color: rgb(19, 137, 205);
 }
+.services{
+    font-size: 12px;
+    color: rgb(147, 147, 147);
+    cursor: pointer;
+}
+.Get-started
+{
+    background-color: rgb(151, 80, 218);
+    width: 130px;
+    height: 42px;
+    border-radius: 5px;
+    border: hidden;
+    border-color: rgb(151, 80, 218);
+    color: white;
+}
+.Get-star
+{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    background-color: rgb(11, 178, 238);
+    width: 130px;
+    height: 42px;
+    border-radius: 5px;
+    border: hidden;
+    border-color: rgb(97, 199, 250);
+    color: white;
+
+}
+.join
+{
+margin-top: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #cc66a0;
+color: white;
+height: 56px;
+}
+.seat
+{
+    text-decoration: none;
+    color: #a8e2f7;
+}
+.seat:hover{
+    color: rgb(240, 216, 0);
+}
+.grow{
+
+
+    background: #ffe8e0;
+    height: 374px;
+}
+.provides{
+
+    margin-top: 50px;
+}
+.eye{
+
+
+    margin-top: 80px;
+}
+.blink{
+
+    
+    animation: blinker 1.6s linear infinite;
+    text-decoration: underline;
+   
+
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+       color: red;
+    }
+}
+.studies{
+  text-decoration: none;
+  color:  #cc66a0;
+  font-size: 20px;
+  font-weight: 600;
+
+
+}
+.studies:hover{
+
+    text-decoration: underline;
+    text-decoration-color: pink;
+    color: rgb(174, 59, 250);
+}
+.leader{
+    background: #f4f6f9;
+    height: 374px;
+}
+.para{
+    margin-top: 92px;
+}
+.time{
+
+    margin-top: 50px;
+}
+.volcanio{
+    margin-top: 70px;
+    border: 5px #303273 solid;
+    height: 200px;
+    border-radius: 20px;
+}
+.rank{
+    margin-top: 30px;
+}
+.has{
+    margin-top: 28px;
+}
+li{
+    list-style-type: none;
+}
+.view{
+    font-size: 12px;
+    margin: 2px;
+}
+.stores{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 11px;
+}
+.adroll{
+    margin-top: 75px;
+}
+.roll{
+    width: 20px;
+}
+@media  only screen and (max-width: 764px) 
+{
+    .Get-star{
+        margin-top: 15px;
+    }
+    .hero-machine
+    {
+        display: none;
+    }
+    .time{
+        margin-top: 300px;
+    }
+    .volcanio{
+    height: 350px;
+
+
+    }
+    .adroll{
+        margin-top: 280px;
+    }
+    .india{
+        height: 200px;
+        width: 550px;
+    }
+   
 }
